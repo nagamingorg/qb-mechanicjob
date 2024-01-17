@@ -1,5 +1,5 @@
 Config = {}
-Config.RequireJob = true                       -- do you need a mech job to use parts?
+Config.RequireJob = false                       -- do you need a mech job to use parts?
 Config.FuelResource = 'LegacyFuel'             -- supports any that has a GetFuel() and SetFuel() export
 
 Config.PaintTime = 5                           -- how long it takes to paint a vehicle in seconds
@@ -31,7 +31,7 @@ Config.WearableParts = { -- unused if Config.UseWearableParts is false (feel fre
 }
 
 Config.Shops = {
-    mechanic = { -- City location
+    --[[mechanic = { -- City location
         managed = true,
         shopLabel = 'LS Customs',
         showBlip = true,
@@ -68,7 +68,7 @@ Config.Shops = {
             { name = 'advancedrepairkit', price = 5000, amount = 50 },
             { name = 'tirerepairkit',     price = 5000, amount = 50 },
         }
-    },
+    },]]--
     mechanic2 = { -- Harmony Location
         managed = true,
         shopLabel = 'LS Customs',
@@ -107,7 +107,7 @@ Config.Shops = {
             { name = 'tirerepairkit',     price = 5000, amount = 50 },
         }
     },
-    mechanic3 = { -- Airport Location
+    --[[mechanic3 = { -- Airport Location
         managed = true,
         shopLabel = 'LS Customs',
         showBlip = true,
@@ -182,7 +182,7 @@ Config.Shops = {
             { name = 'advancedrepairkit', price = 5000, amount = 50 },
             { name = 'tirerepairkit',     price = 5000, amount = 50 },
         }
-    },
+    },]]--
     beeker = { -- Paleto Location
         managed = true,
         shopLabel = 'Beeker\'s Garage',
